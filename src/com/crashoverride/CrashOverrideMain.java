@@ -1,4 +1,4 @@
-package com.javacodegui.example;
+package com.crashoverride;
 
 import javax.swing.*;
 import java.awt.*;
