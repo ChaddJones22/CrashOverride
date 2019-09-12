@@ -70,6 +70,8 @@ public class CrashOverrideMain {
 
             JFileChooser chooser = new JFileChooser();
             chooser.setDialogTitle("Choose a project...");
+            // Create File Directory
+            chooser.setDialogType(JFileChooser.SAVE_DIALOG);
             // TODO: this blocks selecting individual files
             // it will probably need to be changed some when we add file editing to the project
             chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
